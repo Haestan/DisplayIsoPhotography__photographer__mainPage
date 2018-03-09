@@ -1,0 +1,24 @@
+@media all and (max-width: 1024px) {
+    .header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header nav ul li{
+        padding: 10px;
+        text-align: center;
+    }
+    .header nav ul li a{
+        font-size: 2em;
+    }
+    .bar{
+        display: none;
+    }
+    .element{
+    }
+}
+
+@media all and (max-width: 1400px){
+    .element{
+        font-size: 2.5em;
+    }
+}
